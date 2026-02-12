@@ -1,15 +1,39 @@
-Welcome to your new dbt project!
+🏠 Airbnb Data Engineering Pipeline
 
-### Using the starter project
+Built an end-to-end data pipeline using AWS S3, Snowflake, and dbt to transform raw Airbnb data into analytics-ready datasets.
 
-Try running the following commands:
-- dbt run
-- dbt test
+🔹 What This Project Does
 
+Ingests raw CSV data (bookings, hosts, listings)
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+Applies layered transformation (Bronze → Silver → Gold)
+
+Implements incremental loading
+
+Tracks historical changes using SCD Type 2 snapshots
+
+Produces fact tables and denormalized analytics tables
+
+🔹 Tech Stack
+
+Snowflake (Data Warehouse)
+
+dbt (Transformations & Modeling)
+
+AWS S3 (Storage)
+
+Python
+
+Git
+
+🔹 Key Highlights
+
+Designed medallion architecture for structured data flow
+
+Built modular dbt models with reusable macros
+
+Created analytics-ready fact and dimension tables
+
+Added data quality tests and documentation
+
+Maintained clean schema separation (Bronze, Silver, Gold)
