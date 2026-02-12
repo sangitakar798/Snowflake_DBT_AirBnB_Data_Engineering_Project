@@ -1,4 +1,4 @@
-🏠 Airbnb Data Engineering Pipeline
+<h1>🏠 Airbnb Data Engineering Pipeline</h1>
 
 Built an end-to-end data pipeline using AWS S3, Snowflake, and dbt to transform raw Airbnb data into analytics-ready datasets.
 
